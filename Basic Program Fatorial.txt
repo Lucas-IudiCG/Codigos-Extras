@@ -1,0 +1,11 @@
+10 PRINT "Algoritmo em Basic: Fatorial"
+15 PRINT "Digite um numero:"
+20 INPUT N
+30 LET M=N-1
+40 IF N=0 THEN GOTO 80
+50 LET N=N*M
+60 LET M=M-1
+70 IF M>0 THEN GOTO 50
+80 PRINT "SOLUCAO",N
+90 PRINT "Lucas Iudi Corregliano Gallinari -5G - 32138628"
+
